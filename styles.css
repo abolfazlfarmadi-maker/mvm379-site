@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.price-tag {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+
+.form-input:focus {
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
