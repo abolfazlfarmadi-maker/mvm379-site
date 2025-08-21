@@ -6,26 +6,7 @@
     <title>کد 377 مدیران خودرو نجفی گل | ثبت نام محصولات مدیران خودرو 1404</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
-        
-        body {
-            font-family: 'Vazirmatn', sans-serif;
-        }
-        
-        .car-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-        
-        .price-tag {
-            clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-        }
-        
-        .form-input:focus {
-            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-50">
     <!-- Header -->
@@ -570,28 +551,6 @@
         <i class="fab fa-whatsapp text-2xl"></i>
     </a>
 
-    <script>
-        // Simple JavaScript for mobile menu toggle
-        document.addEventListener('DOMContentLoaded', function() {
-            const mobileMenuButton = document.querySelector('button[class*="md:hidden"]');
-            const navMenu = document.querySelector('nav[class*="hidden md:flex"]');
-            
-            mobileMenuButton.addEventListener('click', function() {
-                navMenu.classList.toggle('hidden');
-                navMenu.classList.toggle('flex');
-                navMenu.classList.toggle('flex-col');
-                navMenu.classList.toggle('absolute');
-                navMenu.classList.toggle('top-16');
-                navMenu.classList.toggle('left-0');
-                navMenu.classList.toggle('right-0');
-                navMenu.classList.toggle('bg-white');
-                navMenu.classList.toggle('shadow-md');
-                navMenu.classList.toggle('p-4');
-                navMenu.classList.toggle('space-y-4');
-                navMenu.classList.remove('space-x-6');
-                navMenu.classList.remove('space-x-reverse');
-            });
-        });
-    </script>
-</body>
-</html>
+    <script src="menu.js" defer></script>
+  </body>
+  </html>
